@@ -5,7 +5,8 @@ node_js: stable
 install:
   - npm install
 
-#before_script:
+before_script:
+  - npm install -g hexo-cli
  # - npm install -g gulp
 
 script:
