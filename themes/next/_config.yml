@@ -36,7 +36,7 @@ canonical: true
 menu:
   home: /
   tags: /tags
-  #categories: /categories
+  categories: /categories
   archives: /archives
   about: /about
   #sitemap: /sitemap.xml
