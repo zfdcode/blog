@@ -8,8 +8,6 @@ install:
 before_script:
   - npm install -g hexo-cli
   - npm install hexo-math --save
-  - npm un hexo-renderer-marked --save
-  - npm i hexo-renderer-markdown-it --save
  # - npm install -g gulp
 
 script:

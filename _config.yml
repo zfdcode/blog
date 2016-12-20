@@ -78,27 +78,6 @@ search:
   field: post
   format: html
   limit: 10000
-
-#Markdown
-markdown:
-  render:
-    html: true
-    xhtmlOut: false
-    breaks: false
-    linkify: true
-    typographer: true
-    quotes: '“”‘’'
-  plugins:
-    - markdown-it-footnote
-    - markdown-it-sup
-    - markdown-it-sub
-    - markdown-it-abbr
-  anchors:
-    level: 2
-    collisionSuffix: 'v'
-    permalink: true
-    permalinkClass: header-anchor
-    permalinkSymbol: ¶
    
 #Math
 math:
