@@ -13,6 +13,7 @@ before_script:
 
 script:
   - hexo g
+  - hexo clean
 
 after_script:
   - cd ./public
