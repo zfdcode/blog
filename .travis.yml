@@ -7,12 +7,8 @@ install:
 
 before_script:
   - npm install -g hexo-cli
-  - npm install hexo-math --save
-  - npm install hexo-footnotes --save
- # - npm install -g gulp
 
 script:
-  - hexo clean
   - hexo g
 
 after_script:
