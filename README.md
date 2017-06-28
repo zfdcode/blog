@@ -1,5 +1,5 @@
 # Blog
-这是我基于Hexo的静态博客源文件。使用了next主题并使用了travis进行自动部署。[博客地址](blog.zfdcode.com)  
+这是我基于Hexo的静态博客源文件。使用了next主题并使用了travis进行自动部署。[博客地址](http://blog.zfdcode.com)  
 欢迎fork后自行使用。(不需要在本地端安装hexo)
 
 # 使用步骤
