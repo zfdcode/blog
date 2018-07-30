@@ -6,9 +6,11 @@ tags:
 - LeetCode
 categories: code
 ---
+LeetCodeçš„åˆ·é¢˜ç¬”è®°
+<!-- more -->
 # LeetCode
-Ë¢Ìâ£¬Èô¸É±Ê¼Ç  
-Òªµã£ºÓÀÔ¶¿¼ÂÇÊ±¼ä¸´ÔÓ¶ÈÓë´æ´¢¿Õ¼äĞèÇó
+åˆ·é¢˜ï¼Œè‹¥å¹²ç¬”è®°
+è¦ç‚¹ï¼šæ°¸è¿œè€ƒè™‘æ—¶é—´å¤æ‚åº¦ä¸å­˜å‚¨ç©ºé—´éœ€æ±‚
 
 ## Array and String
 
@@ -27,7 +29,7 @@ def pivotIndex( nums):
         """
         :type nums: List[int]
         :rtype: int
-        Àú±élistÕÒpivot
+        å†élistæ‰¾pivot
         """
         sum_nums=sum(nums)
         left_sum=0
@@ -51,7 +53,7 @@ def dominantIndex( nums):
         """
         :type nums: List[int]
         :rtype: int
-        ¶Ô±Èsorted list×î´óºÍµÚ¶ş´óÔªËØ£¬Ê±¼ä¸´ÔÓ¶ÈÒÀ¾İsortËã·¨¶ø¶¨
+        å¯¹æ¯”sorted listæœ€å¤§å’Œç¬¬äºŒå¤§å…ƒç´ ï¼Œæ—¶é—´å¤æ‚åº¦ä¾æ®sortç®—æ³•è€Œå®š
         """
         if len(nums)==1:
             return 0
@@ -74,7 +76,7 @@ def plusOne(self, digits):
         """
         :type digits: List[int]
         :rtype: List[int]
-        ´ÓlistÎ²²¿¿ªÊ¼¼Ó1£¬Èç¹û´óÓÚÊ®½øÒ»Î»
+        ä»listå°¾éƒ¨å¼€å§‹åŠ 1ï¼Œå¦‚æœå¤§äºåè¿›ä¸€ä½
         """
         add_one_index=0
         digits=digits[::-1]
@@ -97,7 +99,7 @@ def findDiagonalOrder( matrix):
         """
         :type matrix: List[List[int]]
         :rtype: List[int]
-        ¸ù¾İ·½ÏòÑ¡ÔñÎ»ÖÃ±ä»¯
+        æ ¹æ®æ–¹å‘é€‰æ‹©ä½ç½®å˜åŒ–
         """
         temp_list=[]
         if not matrix:
@@ -139,7 +141,7 @@ def spiralOrder( matrix):
         """
         :type matrix: List[List[int]]
         :rtype: List[int]
-        ²»¶Ï½«×îÍâÈ¦ÔªËØÒÀ´Î¼ÓÈëlist¡£ÁíÒ»ÖÖ¸üpythonµÄ×ö·¨£ºÏò×óĞı×ªmatrix£¬½«µÚÒ»ÅÅÔªËØ¼ÓÈëlist
+        ä¸æ–­å°†æœ€å¤–åœˆå…ƒç´ ä¾æ¬¡åŠ å…¥listã€‚å¦ä¸€ç§æ›´pythonçš„åšæ³•ï¼šå‘å·¦æ—‹è½¬matrixï¼Œå°†ç¬¬ä¸€æ’å…ƒç´ åŠ å…¥list
         """
         if not matrix:
             return matrix
@@ -169,7 +171,7 @@ def generate( numRows):
         """
         :type numRows: int
         :rtype: List[List[int]]
-        µü´ú¼ÆËã£¬¶à´Î¼ÆËã½«½ÏĞ¡Êı»º´æ¿ÉÒÔÌá¸ßÔËĞĞËÙ¶È¡£
+        è¿­ä»£è®¡ç®—ï¼Œå¤šæ¬¡è®¡ç®—å°†è¾ƒå°æ•°ç¼“å­˜å¯ä»¥æé«˜è¿è¡Œé€Ÿåº¦ã€‚
         """
         if numRows<1:
             return []
