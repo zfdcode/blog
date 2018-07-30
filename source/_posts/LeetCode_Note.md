@@ -8,15 +8,15 @@ categories: code
 ---
 LeetCode的刷题笔记
 <!-- more -->
-# LeetCode
+
 刷题，若干笔记
 要点：永远考虑时间复杂度与存储空间需求
 
-## Array and String
+# Array and String
 
-### Introduction to Array
+## Introduction to Array
 
-#### Find Pivot Index
+### Find Pivot Index
 Given an array of integers nums, write a method that returns the "pivot" index of this array.
 
 We define the pivot index as the index where the sum of the numbers to the left of the index is equal to the sum of the numbers to the right of the index.
@@ -40,7 +40,7 @@ def pivotIndex( nums):
         return -1
 ```
 
-#### Largest Number At Least Twice of Others
+### Largest Number At Least Twice of Others
 In a given integer array nums, there is always exactly one largest element.
 
 Find whether the largest element in the array is at least twice as much as every other number in the array.
@@ -63,7 +63,7 @@ def dominantIndex( nums):
         return indexes[0] if nums[0]>=2*nums[1] else -1
 ```
 
-#### Plus One
+### Plus One
 Given a non-empty array of digits representing a non-negative integer, plus one to the integer.
 
 The digits are stored such that the most significant digit is at the head of the list, and each element in the array contain a single digit.
@@ -90,7 +90,7 @@ def plusOne(self, digits):
         return digits[::-1]
 ```
 
-#### Diagonal Traverse
+### Diagonal Traverse
 Given a matrix of M x N elements (M rows, N columns), return all elements of the matrix in diagonal order as shown in the below image.
 
 
@@ -132,7 +132,7 @@ def findDiagonalOrder( matrix):
         return temp_list
 ```
 
-#### Spiral Matrix
+### Spiral Matrix
 Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in spiral order.
 
 
@@ -161,7 +161,7 @@ def spiralOrder( matrix):
         return ans
 ```
 
-#### Pascal's Triangle
+### Pascal's Triangle
 Given a non-negative integer numRows, generate the first numRows of Pascal's triangle.
 ![Pascal's Triangle](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
 
