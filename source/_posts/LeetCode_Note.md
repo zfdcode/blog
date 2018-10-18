@@ -90,6 +90,8 @@ def plusOne(self, digits):
         return digits[::-1]
 ```
 
+## Introduction to 2D Array
+
 ### Diagonal Traverse
 Given a matrix of M x N elements (M rows, N columns), return all elements of the matrix in diagonal order as shown in the below image.
 
